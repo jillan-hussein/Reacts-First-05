@@ -2,12 +2,24 @@ import Header from "./header"
 import Footer from './footer'
 import Alert from "./Components/molecules/Alert"
 import Button from "./Components/atoms/Button"
+import Counter from "./Components/molecules/Counter"
 
 export default
 function App() {
     return(
         <div clasName="p-4">
         <Header />
+
+        <Counter />
+        <Counter />
+        <Counter />
+        <Counter />
+
+        <section>
+            <Button title="+" />
+            <span>0</span>
+            <Button title="-" />
+        </section>
 
         <section className="p-4">
             <Button title="Save" />
