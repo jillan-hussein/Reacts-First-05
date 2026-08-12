@@ -1,4 +1,4 @@
-export default function Button({variant, fontColor, fontSize, btnArea, title}) {
+export default function Button({variant, fontColor, fontSize, btnArea, title, onClick}) {
     
     // const variant = props.variant;
     // const fontColor = props.fontColor;
@@ -67,6 +67,7 @@ export default function Button({variant, fontColor, fontSize, btnArea, title}) {
 
     return(
         <button 
+        onClick={onClick}
         className={`px-2 py-1 rounded-lg shadow-2xl cursor-pointer hover:scale-95 ${bgColor} ${textColor} ${size} ${btnPad}`}
         >
             {title}

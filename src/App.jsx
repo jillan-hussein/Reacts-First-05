@@ -3,12 +3,15 @@ import Footer from './footer'
 import Alert from "./Components/molecules/Alert"
 import Button from "./Components/atoms/Button"
 import Counter from "./Components/molecules/Counter"
+import UserData from "./Components/molecules/UserData"
 
 export default
 function App() {
     return(
-        <div clasName="p-4">
+        <div className="p-4">
         <Header />
+
+        <UserData />
 
         <Counter />
         <Counter />
