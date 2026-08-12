@@ -14,9 +14,6 @@ function App() {
         <UserData />
 
         <Counter />
-        <Counter />
-        <Counter />
-        <Counter />
 
         <section>
             <Button title="+" />
